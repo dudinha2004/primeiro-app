@@ -1,27 +1,15 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.card {
+  position: relative;
+  width: 350px;
+  background: #e9e9e9;
+  box-shadow: 0 3px 9px #383838;
+  font-family: 'Romoto', sans-serif;
+  top: 10%;
+  border-radius: 10%;
+  margin-left: 5px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+.details {
+  padding: 30px;
+  margin: 9px;
 }
